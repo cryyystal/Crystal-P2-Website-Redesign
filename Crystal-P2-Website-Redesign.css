@@ -1,9 +1,9 @@
-#logo{
-	left: 12%;
-	right: 88%;
-	width: 20%;
-}
-
 html{
 	background: #F8F5EC;
 }
+
+#logo{
+/*	left: 50%;*/
+	width: 20%;
+}
+
