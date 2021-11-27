@@ -2,10 +2,68 @@ html{
 	background: #F8F5EC;
 }
 
-#logo{
-	width: 30%;
-	left: 50%;
+.navigation{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
 }
+
+.navigation-top{
+	position: fixed;
+    width: 100vw;
+    background: white;
+    min-height: 55px;
+    top: 0;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+#logo{
+	max-height: 72px;
+	display: flex;
+    align-items: center;
+    padding: 3%;
+}
+
+a{
+	text-decoration: none;
+	text-decoration-color: none;
+	color: black;
+	font-size: 12pt;
+	font-family: bilo,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	-webkit-transition: color 1s;
+	transition: color 1s;
+
+}
+
+a:hover {
+	letter-spacing: 0.08em;
+	transition: 0.3s;
+	color: hotpink;
+}
+
+h2{
+	font-size: 20pt;
+	font-family: louvette-banner,serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+li{
+	list-style: none;	
+	display: inline-block;
+	margin-left: 3%;
+}
+
+
+
+
+
+
+
+
 
 
 
