@@ -66,14 +66,14 @@ html{
 }
 
 a{
-	text-decoration: none;
-	text-decoration-color: none;
 	color: black;
-	font-size: 12pt;
+	font-size: 14pt;
 	font-family: bilo,sans-serif;
 	font-weight: 700;
 	font-style: normal;
-	-webkit-transition: color 1s;
+	text-decoration: none;
+	text-decoration-color: none;
+	-webkit-transition: color 1.5s;
 	transition: color 1s;
 }
 
@@ -107,41 +107,40 @@ li{
 
 .searching{
 	margin-left: 3%;
+	align-content: center;
 }
 
-.home-content{
+.website-content{
 	width: 100%;
-/*	padding: 20px;*/
-	background: #F8F5EC;	/*change this when done everything*/
+	background: #F8F5EC;
 }
 
-
-
-
-
-
-/*Example for Units- rectangles starts here */
-/*.rectangle{
-	width: 100%;
-	color: white;
+.branches{
+/*	width: 100%;*/
+	height: 0;
+	display: grid;
 	padding: 20px;
-}*/
-
-.absolute{
-	background: darkred;
-	width: 300px;
-	height: 300px;
-	padding: 30px;
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: repeat(11, 5fr);
+	grid-template-areas:
+	"header header" 
+	"sidebar content";
 }
 
-.relative{
-	background: green;
+.library-photo{
+	display: inline-block;
 	width: 100%;
-	height: 60vw;
-	padding: 2%;
 }
 
+.info-title{
+	grid-area: header;
+}
 
+.library-info{
+	font-family: bilo,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
 
 
 
