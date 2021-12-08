@@ -113,6 +113,7 @@ li{
 .website-content{
 	width: 100%;
 	background: #F8F5EC;
+	padding: 3%;
 }
 
 .branches{
@@ -122,9 +123,19 @@ li{
 	padding: 20px;
 	grid-template-columns: repeat(1, 1fr);
 	grid-template-rows: repeat(11, 5fr);
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
 	grid-template-areas:
 	"header header" 
 	"sidebar content";
+
+}
+
+.library-branches-text{
+	color: black;
+	font-family: tuppence,serif;
+	font-weight: 900;
+	font-style: normal;
 }
 
 .library-photo{
@@ -137,9 +148,11 @@ li{
 }
 
 .library-info{
+	/*font-size: 10pt;*/
 	font-family: bilo,sans-serif;
 	font-weight: 700;
 	font-style: normal;
+	grid-area: sidebar sidebar;
 }
 
 
