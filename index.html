@@ -4,7 +4,6 @@
     <title>📚Windsor Public Library📚</title>
     <link rel="stylesheet" type="text/css" href="Crystal-P2-Website-Redesign.css">
     <link rel="stylesheet" href="https://use.typekit.net/zlz8gdp.css">
-    <link rel="stylesheet" href="flickity-docs/flickity.css" media="screen">
   </head>
   <body>
      <div class="navigation-top">
@@ -14,7 +13,7 @@
       <nav>
         <ul>
           <li><a href="index.html">HOME</a> </li>
-          <li><a href="visiting-WPL.html">VISITING WPL</a> </li>
+          <li><a href="MyAccount-Login.html">My Account/Login</a> </li>
           <li><a href="e-resources.html">E-RESOURCES</a> </li>
           <li class="search-field"><img class="search-icon" src="Assets/magnifying glass.svg">
           <input type="text" placeholder="Search" class="searching">
@@ -24,11 +23,14 @@
      </div>
 
     <div class="website-content">
-        <div class="main-carousel">
-          <div class="carousel-cell">...</div>
-          <div class="carousel-cell">...</div>
-          <div class="carousel-cell">...</div>
-        </div>
+      <link rel="stylesheet" href="path/to/flickity.css" media="screen">
+      <script src="path/to/flickity.pkgd.min.js"></script>
+
+      <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+        <div class="carousel-cell">...</div>
+        <div class="carousel-cell">...</div>
+        <div class="carousel-cell">...</div>
+      </div>
 
 
 
@@ -56,6 +58,5 @@
     
   </body>
   <script src="Crystal-P2-Website-Redesign.js"></script>
-  <script src="flickity-docs/flickity.pkgd.min.js"></script>
   <!-- <script type="text/javascript"> </script> -->
 </html>
