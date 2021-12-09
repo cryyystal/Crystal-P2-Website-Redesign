@@ -1,5 +1,7 @@
 html{
 	background: #F8F5EC;
+	/*button code from https://custom-cursor.com/en/collection/cute-cursors/cute-mocha-bear-book*/
+    cursor:url(https://cdn.custom-cursor.com/db/8223/32/mocha-bear-and-book-pointer.png), pointer!important;
 }
 
 *{
@@ -107,10 +109,7 @@ li{
 	height: 100%;
 	background: #F8F5EC;
 	margin-top: 180px;
-/*	grid-template-columns: repeat(1, 1fr);
-	grid-template-rows: repeat(11, 5fr);
-	grid-column-gap: 20px;
-	grid-row-gap: 20px;*/
+
 }
 
 
@@ -123,17 +122,18 @@ li{
 
 /*Help from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_auto*/
 /* Slideshow container */
-.slideshow-container {
-  max-width: 940px;
+.slideshow-container{
+/*  max-width: 940px;*/
   position: relative;
   margin: auto;
+  grid-area: content;
 }
 
 /* Caption text */
 .text {
   color: black;
   font-size: 20pt;
-/*  padding: 8px 12px;*/
+  padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
@@ -188,12 +188,12 @@ li{
 }
 
 .branches{
-/*	height: 0;*/
 	display: grid;
-	padding: 0px;
-	margin: 20px;
+	padding-top: 3%;
+	padding-left: 15%;
+	padding-right: 15%;
 	grid-template-columns: auto;
-	grid-template-rows: repeat(11);
+/*	grid-template-rows: repeat(11);*/
 	grid-column-gap: 20px;
 	grid-row-gap: 20px;
 	grid-template-areas:
@@ -210,40 +210,45 @@ li{
 	font-style: bold;
 }
 
+.info-title:hover{
+	letter-spacing: 0.08em;
+	transition: 0.3s;
+	color: #419CCE;
+}
+
 .library-info{
-	/*font-size: 10pt;*/
 	font-family: bilo,sans-serif;
 	font-weight: 700;
 	font-style: normal;
 	grid-area: sidebar sidebar;
 }
 
-h4:hover {
-	letter-spacing: 0.08em;
-	transition: 0.3s;
-	color: #419CCE;
-}
-
-
 /*Log in page starts here*/ /*Log in page starts here*/ /*Log in page starts here*/ /*Log in page starts here*/
+/*login field help from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form*/
 .login{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-areas:
+	"header header"
+/*	"content content"*/
+	"content sidebar";
 	margin-left: 3%;
 	padding-top: 3%;
 	padding-left: 3%;
 }
 
 .login-fields{
-
+	grid-area: content;
 }
 
 .sitting-book{
-/*	padding-right: 20%;*/
+	/*background: #419CCE;*/
 	float: right;
 	width: 30vw;
-	padding: 0;
-	margin-top: 5%;
-	margin-right: 5%;
+	margin-left: 15%;
+/*	margin-top: 5%;*/
 	z-index: 2;
+	grid-area: sidebar;
 }
 
 
