@@ -203,11 +203,11 @@ li{
 
 .info-title{
 	grid-area: header;
-	font-size: 15pt;
+	font-size: 20pt;
 	color: black;
 	font-family: tuppence,serif;
 	font-weight: 900;
-	font-style: normal;
+	font-style: bold;
 }
 
 .library-info{
