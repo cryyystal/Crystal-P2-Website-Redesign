@@ -177,7 +177,7 @@ li{
 
 .info-title{
 	grid-area: header;
-	font-size: 20pt;
+	font-size: 40pt;
 	color: black;
 	font-family: tuppence,serif;
 	font-weight: 900;
@@ -236,9 +236,10 @@ li{
 
 /*Log in page starts here*/
 h2{
-	font-family: bilo,sans-serif;
+
+/*	font-family: bilo,sans-serif;
 	font-weight: 700;
-	font-style: normal;
+	font-style: normal;*/
 }
 
 .login{
@@ -343,14 +344,6 @@ span.psw {
 	padding-right: 14%;
 }
 
-h1{
-	font-size: 20pt;
-	color: black;
-	font-family: tuppence,serif;
-	font-weight: 900;
-	grid-area: header;
-}
-
 .message-box{
 	height: 22vh;
 }
@@ -363,9 +356,38 @@ h1{
 
 
 
+h1{
+	font-size: 40pt;
+	color: black;
+	font-family: tuppence,serif;
+	font-weight: 900;
+	grid-area: header;
+	-webkit-transition: color 1.5s;
+	transition: color 1s;
+}
 
+h1:hover {
+	letter-spacing: 0.08em;
+	transition: 0.3s;
+	color: #419CCE;
+}
 
+.e-card{
+	padding-top: 3%;
+	padding-left: 15%;
+	padding-right: 15%;
+}
 
+.e-card-info, .e-card-register-info, .e-card-subinfo, .e-cards-fields{
+	font-family: bilo,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.e-card-register-info:hover{
+	color: sandybrown;
+	transition: all 0.2s;
+}
 
 
 

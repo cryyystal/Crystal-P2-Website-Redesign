@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="Crystal-P2-Website-Redesign.css">
     <link rel="stylesheet" href="https://use.typekit.net/zlz8gdp.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/"></script>
   </head>
   <body>
      <div class="navigation-top">
@@ -21,31 +22,142 @@
      </div>
 
     <div class="website-content">
-      <div class="">
-        <h2 id="">Obtain an E-Card</h2>
-        <p>
-          The Windsor Public Library is pleased to offer electronic cards (eCards). An eCard is an option for those who need a new card and can’t visit a bricks and mortar branch.
+      <div class="e-card">
+        <h1>Obtain an E-Card</h1>
+        <p class="e-card-info">
+          The Windsor Public Library is pleased to offer electronic cards (eCards).
+          An eCard is an option for those who need a new card and 
+          can’t visit a bricks and mortar branch.
+          <br>
+          They will provide access to online resources, including streaming media, eBooks, audio-eBooks, newspapers, magazines, and others.
+          <br>
+          They allow holds to be placed in BiblioCommons. The eCard can be converted to a regular card in-branch when items are checked out.
 
-          <h3>These cards will...</h3>
-          <ul>Provide access to online resources, including streaming media, eBooks, audio-eBooks, newspapers, magazines, and others</ul>
+          <br>
+          <br>
 
-          <ul>Allow holds to be placed in BiblioCommons, and the eCard can be converted to a regular card in-branch when items are checked out</ul>
+          <h1>Exceptions:</h1>
+          <ul class="e-card-subinfo">Cannot be used to check out physical items</ul>
+          <ul class="e-card-subinfo">Cannot be used to log onto Library computers</ul>
 
-          <h3>Exception:</h3>
-          <ul>Cannot be used to check out physical items</ul>
-          <ul>Cannot be used to log onto Library computers</ul>
+          <h1>Rules to getting an E-Card:</h1>
+          <ul class="e-card-subinfo">Be a resident of Windsor/Essex County</ul>
+          <ul class="e-card-subinfo">Be at least 13 years of age</ul>
 
-          <h3>Exception:</h3>
-          <ul>Be a resident of Windsor/Essex County
-            <ul>Be at least 13 years of age</ul>
+          <br>
+          <br>
+          <br>
+          <br>
+
+          <p class="e-card-register-info">
+            To obtain an eCard, an applicant must complete and submit the online registration form below.
+            <br>
+            When an application is approved, library staff will email the library card number and PIN to the applicant.
+            <br>
+            All applications will be responded to within 48 business hours.
+            <br>
+            Submitting the application below indicates acceptance of these conditions.
+          </p>
+
+          <br>
+          <br>
+
+          <div class="e-card-fields">
+            <label for="firstname">
+              <b>First Name*</b>
+            </label>
+            <input type="text" placeholder="Enter Your First Name" name="firstname" required>
+
+            <br>
+            <br>
+
+            <label for="lastname">
+              <b>Last Name*</b>
+            </label>
+            <input type="text" placeholder="Enter Your Last Name" name="lastname" required>
+
+            <br>
+            <br>
+
+            <label for="DOB">
+              <b>Date of Birth* (MM-DD-YYYY)</b>
+            </label>
+            <input type="text" placeholder="Enter Your Date of Birth" name="DOB" required>
+
+            <br>
+            <br>
+
+            <label for="StreetAddress">
+              <b>Street Address*</b>
+            </label>
+            <input type="text" placeholder="Enter Your Address" name="Address" required>
+
+            <br>
+            <br>
+
+            <label for="ApartmentNum">
+              <b>Apartment Number</b>
+            </label>
+            <input type="text" placeholder="Enter Your Apartment Number" name="ApartNum" required>
+
+            <br>
+            <br>
+
+            <label for="City">
+              <b>City*</b>
+            </label>
+            <input type="text" placeholder="Enter City Name" name="CityName" required>
+
+            <br>
+            <br>
+
+            <label for="City">
+              <b>Province*</b>
+            </label>
+            <input type="text" placeholder="Enter Province Name" name="ProvinceName" required>
+
+            <br>
+            <br>
+
+            <label for="City">
+              <b>Postal Code*</b>
+            </label>
+            <input type="text" placeholder="Enter Your Postal Code" name="Postal Code" required>
+
+            <br>
+            <br>
+
+            <label for="TelephoneNumber">
+              <b>Telephone Number*</b>
+            </label>
+            <input type="text" placeholder="Enter Your Telephone Number" name="TelNum" required>
+
+            <br>
+            <br>
+
+            <label for="City">
+              <b>Email Address*</b>
+            </label>
+            <input type="text" placeholder="Enter Your Email Address" name="EmailAddress" required>
+
+            <br>
+            <br>
+
+            <button class="send-button">Send</button>
 
 
+
+          </div>
         </p>
       </div>
     </div>
 
+    <br>
+    <br>
+    <br>
+    <br>
 
   </body>
-  <script src="jquery.min.js"></script>
+  <script src="Crystal-P2-Website-Redesign.js"></script>
   <!-- <script type="text/javascript"> </script> -->
 </html>
