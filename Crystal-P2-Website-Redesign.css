@@ -207,33 +207,6 @@ li{
 	padding-left: 5%;
 }
 
-
-
-
-
-
-
-
-/*Events & Programs Starts Here*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Log in page starts here*/
 h2{
 
@@ -324,12 +297,6 @@ span.psw {
   }
 }
 
-
-
-
-
-
-
 .contact-container{
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
@@ -347,14 +314,6 @@ span.psw {
 .message-box{
 	height: 22vh;
 }
-
-
-
-
-
-
-
-
 
 h1{
 	font-size: 40pt;
@@ -388,15 +347,3 @@ h1:hover {
 	color: sandybrown;
 	transition: all 0.2s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
