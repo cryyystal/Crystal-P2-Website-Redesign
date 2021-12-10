@@ -99,7 +99,6 @@ li{
 /*Help from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_auto*/
 /* Slideshow container */
 .slideshow-container{
-/*  max-width: 940px;*/
   position: relative;
   margin: auto;
   grid-area: content;
@@ -169,7 +168,6 @@ li{
 	padding-left: 15%;
 	padding-right: 15%;
 	grid-template-columns: auto;
-/*	grid-template-rows: repeat(11);*/
 	grid-column-gap: 20px;
 	grid-row-gap: 20px;
 	grid-template-areas:
@@ -203,6 +201,33 @@ li{
 	padding-top: 3%;
 	padding-left: 5%;
 }
+
+
+
+
+
+
+
+
+/*Events & Programs Starts Here*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Log in page starts here*/
 h2{
@@ -293,6 +318,37 @@ span.psw {
   }
 }
 
+
+
+
+
+
+
+.contact-container{
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-template-areas:
+	"header"
+	"header"
+	"header"
+	"header";
+	padding-top: 0;
+	padding-left: 14%;
+	padding-right: 14%;
+}
+
+h1{
+	font-size: 20pt;
+	color: black;
+	font-family: tuppence,serif;
+	font-weight: 900;
+	grid-area: header;
+}
+
+.message-box{
+	height: 22vh;
+}
 
 
 
