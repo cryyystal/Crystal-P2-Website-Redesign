@@ -152,7 +152,7 @@ li{
 /* The dots/bullets/indicators */
 .dot {
   height: 10pt;
-  width: 15px;
+  width: 10pt;
   margin: 0 2px;
   background-color: darkgrey;
   border-radius: 50%;
@@ -222,6 +222,15 @@ li{
 	font-style: normal;
 	grid-area: sidebar sidebar;
 }
+
+.calendar-title{
+	padding-top: 3%;
+	padding-left: 5%;
+}
+
+
+
+
 
 /*Log in page starts here*/ /*Log in page starts here*/ /*Log in page starts here*/ /*Log in page starts here*/
 /*login field help from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form*/
