@@ -197,6 +197,11 @@ li{
 	grid-area: sidebar sidebar;
 }
 
+.library-info:hover{						/*branch info animation here*/
+	color: sandybrown;
+	transition: all 0.2s;
+}
+
 .calendar-title{
 	padding-top: 3%;
 	padding-left: 5%;
