@@ -33,12 +33,6 @@ html{
   background: #2E6D89; 
 }
 
-/*.navigation{
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-}*/
-
 .navigation-top{
 	box-sizing: border-box;
 	position: fixed;
@@ -55,7 +49,7 @@ html{
 	display: flex;
     align-items: center;
     margin-top: 2%;
-    margin-left: 5.5%;
+    margin-left: 4%;
 }
 
 a{
@@ -89,18 +83,8 @@ ul{
 li{
 	list-style: none;	
 	display: inline-block;
-	margin-left: 3%;
+	margin-left: 1.3%;
 	align-content: space-evenly;
-}
-
-.search-icon{
-	width: 4%;
-	align-content: space-evenly;
-}
-
-.searching{
-	margin-left: 3%;
-	align-content: center;
 }
 
 .website-content{
@@ -111,14 +95,6 @@ li{
 	margin-top: 180px;
 
 }
-
-
-
-
-
-
-
-
 
 /*Help from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_auto*/
 /* Slideshow container */
@@ -228,12 +204,7 @@ li{
 	padding-left: 5%;
 }
 
-
-
-
-
-/*Log in page starts here*/ /*Log in page starts here*/ /*Log in page starts here*/ /*Log in page starts here*/
-/*login field help from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form*/
+/*Log in page starts here*/
 h2{
 	font-family: bilo,sans-serif;
 	font-weight: 700;
@@ -254,22 +225,14 @@ h2{
 
 .sitting-book{
 	float: right;
-	width: 28vw;
-	margin-left: 20%;
+	width: 27vw;
+	margin-left: 22%;
 	z-index: 2;
 	grid-area: sidebar;
 }
 
-
-
-
-
-
-
-
-
 /*help from https://www.w3schools.com/howto/howto_css_login_form.asp
-Log in field starts here*/
+/Log in field starts here*/
 form {
   grid-area: content;
 }
@@ -329,6 +292,7 @@ span.psw {
     width: 100%;
   }
 }
+
 
 
 
