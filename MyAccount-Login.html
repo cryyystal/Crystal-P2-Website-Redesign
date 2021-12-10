@@ -15,17 +15,47 @@
           <li><a href="index.html">HOME</a> </li>
           <li><a href="MyAccount-Login.html">My Account/Login</a> </li>
           <li><a href="e-resources.html">E-RESOURCES</a> </li>
-          <li class="search-field"><img class="search-icon" src="Assets/magnifying glass.svg">
+<!--           <li class="search-field"><img class="search-icon" src="Assets/magnifying glass.svg">
           <input type="text" placeholder="Search" class="searching">
-          </li>
+          </li> -->
          </ul>
       </nav>
      </div>
 
     <div class="website-content">
       <div class="login login-fields">
-        <img class="sitting-book" src="Assets/sitting-book.png">
+        <img class="sitting-book" href="" src="Assets/sitting-book.png">
         <h2 id="login-text">Log In </h2>
+
+        <!--         help from https://www.w3schools.com/howto/howto_css_login_form.asp -->
+        <!-- Log in field starts here -->
+        <form>
+          <div class="container">
+            <label for="uname"><b>Email Address</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw">
+              <b>Password</b>
+            </label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+              <button type="submit">Login
+              </button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+          </div>
+
+        <div class="container">
+          <span class="psw">
+            <a href="https://windsor.bibliocommons.com/user/forgot">I Forgot My Password</a>
+          </span>
+        </div>
+      </form>
+    </div>
+
+
+
 
       </div>
     </div>
